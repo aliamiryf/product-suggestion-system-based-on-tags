@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "924897e2-dff1-46bb-aa01-08be7787011d",
+		"name": "iran agency",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16907412"
+	},
+	"item": [
+		{
+			"name": "get all products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/v1/products/all",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"all"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "min_price",
+							"value": "28000",
+							"disabled": true
+						},
+						{
+							"key": "max_price",
+							"value": "60000",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/v1/products/1/show",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"1",
+						"show"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "min_price",
+							"value": "28000",
+							"disabled": true
+						},
+						{
+							"key": "max_price",
+							"value": "60000",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get product suggestion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/v1/products/1/suggestion",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"1",
+						"suggestion"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "min_price",
+							"value": "28000",
+							"disabled": true
+						},
+						{
+							"key": "max_price",
+							"value": "60000",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
